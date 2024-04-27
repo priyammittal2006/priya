@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="Button.css">
+    <style>
+        #Aman{
+         color: white ;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="https://www.sunderdeep.ac.in/SDEC/images/LOGO-GIF.gif" class="logo">
+            <ul>
+                <button class="btn-31">
+                    <span class="text-container">
+                      <span class="text" onclick="openme()">Show Details</span>
+                    </span>
+                </button>
+                <button class="btn-31">
+                    <span class="text-container">
+                      <span class="text" onclick="openWordFile()">Hobbies</span>
+                    </span>
+                </button>
+                <button class="btn-31">
+                    <span class="text-container">
+                      <span class="text" onclick="mychoice()">Resume</span>
+                    </span>
+                </button>
+                <button class="btn-31">
+                    <span class="text-container">
+                      <span class="text" onclick="mylife()">Aim</span>
+                    </span>
+                </button>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Hello, I'm <span>Priyam Mittal</span></h1>
+            <p id="Aman"> I'am a student of Suresh Deep Polytechnic (SDP)</p>
+        </div>
+    </div>
+<script>
+
+function openWordFile() {
+    var fileUrl = 'https://gamma.app/docs/Embracing-a-Multifaceted-Life-Dancing-Singing-and-Helping-Others-ycl2eqa8j61h6an';
+    window.open(fileUrl, '_blank');
+}
+function openme()
+{
+    var fileUrl='https://gamma.app/docs/Untitled-4ancjt0fxbk0axr'
+    window.open(fileUrl, '_blank');
+}
+function mychoice()
+{
+    var fileUrl='https://gamma.app/docs/Resume-yb94d7pynqvx19t'
+    window.open(fileUrl, '_blank')
+}
+function mylife()
+{
+    var fileUrl=''
+    window.open(fileUrl, '_blank')
+}
+
+</script>
+   
+</body>
+</html>
